@@ -63,3 +63,6 @@
         calculate the difference between the two distances
 
 4. Use these functions to render the prediction
+
+## Extra
+- Factor in your local velocity by using relative velocities for x y and (maybe z)
