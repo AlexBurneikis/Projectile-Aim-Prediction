@@ -32,7 +32,7 @@
 
     Determine if they are turning left, and store a boolean value.
 
-    If the ship is turning left, multiply the radius by -1.
+    If the target is turning left, multiply the radius by -1.
 
     Find the center of rotation, first find the angle to it ```theta = (heading - pi/2) if left turn else (heading + pi/2)``` then find the center of rotation ```cx = x + r*cos(theta), cy = y + r*sin(theta)```
 
@@ -40,9 +40,9 @@
 
     And substitute it into ```future_x = cx + r*cos(a_v * time + theta), future_y = cy + r*sin(a_v * time theta)```
 
-    Test your function by setting time to 0 and it should show where the ship is, then set it to 1 and it should show where the ship will be in 1 second.
+    Test your function by setting time to 0 and it should show where the target currently is, then set it to 1 and it should show where the ship will be in 1 second.
 
-    Also add a check to see if the ship isnt moving or isnt turning, and return the position or the linear prediction.
+    Also add a check to see if the target isnt moving or isnt turning, and return the position or the linear prediction.
 
 3. Calculate the time it takes for the cannonball to reach the target
 
