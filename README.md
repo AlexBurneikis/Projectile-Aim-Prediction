@@ -13,4 +13,5 @@ This is purely for educational purposes. If you use this information to create a
 
 ## Credit
 [mogistink](https://www.unknowncheats.me/forum/members/3434160.html)
+
 [Forrest Smith](https://www.forrestthewoods.com/blog/solving_ballistic_trajectories/)
