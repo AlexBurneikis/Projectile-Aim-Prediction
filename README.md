@@ -6,6 +6,8 @@ This is a program that predicts the trajectory of a cannonball in Sea of Thieves
 
 This repo explains my method to do so.
 
+[Read here](./CannonPrediction.md)
+
 ## Disclaimer
 _Dont use this to cheat_
 
